@@ -1,0 +1,81 @@
+.forget_wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.forget_form , .label_forget{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #FFFFFF;
+    justify-content: center;
+}
+.footer_Fp{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:280px;
+}
+.label_forget input{
+    height: 48px;
+    width: 574px;
+}
+.emailtext{
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 11px 24px 13px 16px;
+    color: rgba(255, 255, 255, 1);
+    width: 471px;
+    height: 48px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid var(--text-stroke-text-and-stroke-2, #727288);
+    background: var(--background-bg-lighter, #2B2B3F);
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.footer_Fp span{
+    
+   
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    
+    display: flex;
+    align-items: center;
+    text-decoration-line: underline;
+    
+    /* Orange/4 default */
+    
+    color: #FF7506;
+}
+.btnTT{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 24px;
+gap: 8px;
+font-weight: 500;
+font-size: 16px;
+color: #FFFFFF;
+border: 2px solid transparent;
+width: 208px;
+height: 56px;
+
+/* Orange/4 default */
+
+background: #FF7506;
+border-radius: 8px;
+}

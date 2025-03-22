@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../css/Sidebar.css";
+import "../css/SidebarPopup.css";
 import logoAlta from "../../../assets/logo.png";
 import record from "../../../assets/Banghiicon.png";
 import playlist from "../../../assets/Playlisticon.png";
@@ -54,14 +54,14 @@ const Sidebar = () => {
     setIsActiveSup(!isActiveSup);
   };
   return (
-    <div className="sidebar-wrapper">
+    <div className="sidebarPopup-wrapper">
       
-   
-
-     <div className="menubar"  >
-        <div className="Sidebar_form">
+      {isSidebarOpen && <div className="overlay" onClick={closeSidebar}></div>}
+     {isSidebarOpen ?  
+     <div className={`menubarPopup${isSidebarOpen ? 'open' : ''} `} >
+        <div className="SidebarPopup_form">
         <span className="">
-          <img className="logomain" src={logoAlta} />
+          <img className="logomainPopup" src={logoAlta} />
         </span>
 
         <ul className="nav ">
@@ -256,7 +256,9 @@ const Sidebar = () => {
        
        
     
-      </div>
+      </div>: <div className="menubar_close">
+        <img onClick={toggleSidebar} src={closeicon} alt="" />
+      </div>}
      
     </div>
 

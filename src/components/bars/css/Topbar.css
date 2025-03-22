@@ -1,0 +1,72 @@
+.topbar-right {
+    float: right;
+    width: 1070px;
+    z-index: 3;
+}
+
+.functionP {
+    background-color: var(--colorpage);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 8px 10px 0px;
+    gap: 8px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    left: -40px;
+    top: 0px;
+    color: var(--colormain);
+    border: 2px solid var(--colorpage);
+    border-radius: 8px;
+}
+
+.profile {
+    position: absolute;
+    width: 172px;
+    height: 42px;
+    right: 100px;
+    top: 24px;
+}
+.nameP {
+    position: absolute;
+    width: 124px;
+    height: 42px;
+    left: 48px;
+    top: 0px;
+}
+.xinchao {
+    position: absolute;
+    width: 100px;
+    height: 18px;
+    right: 20px;
+    top: 10px;
+
+    color: var(--orange-5, #b65100);
+
+    /* Menu Medium 14 */
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.21px;
+}
+.nameMain {
+    position: absolute;
+    width: 124px;
+    height: 24px;
+    right: 0px;
+    top: 0px;
+
+    color: var(--text-stroke-text-and-stroke, #f5f5ff);
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    /* Gray/$-gray-400 Text */
+}

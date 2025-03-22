@@ -1,0 +1,48 @@
+.login_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.change_wrapper {
+    margin-bottom: 40px;
+    margin-top: 40px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+}
+.btnXN {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.09px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 24px;
+    margin-top: 40px;
+    color: #ffffff;
+    width: 224px;
+   
+    height: 56px;
+
+    border: 2px solid transparent;
+
+    background: #ff7506;
+    border-radius: 8px;
+}
+.eyesPass {
+    color: #ff7506;
+    background: transparent;
+    position: absolute;
+    bottom: 438px;
+    right: 750px;
+}
+.eyesPassNew {
+    color: #ff7506;
+    background: transparent;
+    position: absolute;
+    bottom: 333px;
+    right: 750px;
+}

@@ -1,4 +1,5 @@
 .wrapper {
+    margin-top: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,15 +21,16 @@ p {
 }
 .wrapper span {
     font-weight: 700;
-    font-size: 34px;
+    font-size: 36px;
     line-height: 48px;
 }
 .wrapper p {
-    font-weight: 400;
-    font-size: 14px;
+    font-weight: 600;
+    font-size: 16px;
     line-height: 24px;
 }
-.wrapper input {
+
+.passtext,.usertext {
     box-sizing: border-box;
 
     /* Auto layout */
@@ -39,16 +41,11 @@ p {
     padding: 11px 24px 13px 16px;
     color: rgba(255, 255, 255, 1);
     width: 471px;
-    height: 45px;
-
-    /* Background/BG_Lighter */
-
-    background: #2b2b3f;
-    /* Text & stroke/Text and stroke 2 */
-
-    border: 1px solid #727288;
+    height: 48px;
+    font-size: 16px;
     border-radius: 8px;
-
+    border: 1px solid var(--text-stroke-text-and-stroke-2, #727288);
+    background: var(--background-bg-lighter, #2B2B3F);
     /* Inside auto layout */
 
     flex: none;
@@ -63,14 +60,17 @@ p {
     flex-direction: column;
     gap: 20px;
 }
+.label_pass input{
+    margin-bottom: 20px;
+}
 .btnDN {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 16px 24px;
-    
-    font-size: 14px;
+    width: 184px;
+    font-size: 18px;
     font-weight: 500;
    color: var(--colorFont);
     border: 1px solid rgba(30, 30, 46, 1);
@@ -81,16 +81,16 @@ p {
     cursor: pointer;
 }
 .btn_Login{
-    margin-top: 20px;
+    margin-top: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap:50px
+    gap:180px;
 }
 .forgetPass p {
-    font-weight: 400;
-font-size: 14px;
+font-weight: 600;
+font-size: 16px;
 line-height: 24px;
 /* identical to box height, or 150% */
 
@@ -102,12 +102,21 @@ text-decoration-line: underline;
 
 color: #FF7506;
 }
+.error_lg{
+    color: var(--red, #FF4747);
+font-size: 16px;
+line-height: 24px;
+letter-spacing: -0.032px;
+}
 .my_checkbox {
     display: flex;
     gap: 20px;
+    margin-top:10px;
 }
 .my_checkbox label {
     margin-left: 30px;
+    color: #FFFFFF;
+    font-size: 16px;
 }
 .my_checkbox input[type="checkbox"] {
     position: absolute;
@@ -119,7 +128,7 @@ color: #FF7506;
     height: 20px;
     width: 20px;
     box-sizing: border-box;
-    background: #ffffff;
+    background: transparent;
     box-sizing: border-box;
     margin-right: 20px;
     border: 1.5px solid #4277ff;
@@ -133,5 +142,41 @@ color: #FF7506;
     color: white;
     display: flex;
     align-items: center;
+    margin-top: 0px;
+    background: blue;
+    height: 15px;
     justify-content: center;
   }
+  .eyes{
+    color: #FF7506;
+    background: transparent;
+    position: absolute;
+    bottom: 394px;
+    right: 750px;
+    
+  }
+  .eyesEr{
+    color: #FF7506;
+    background: transparent;
+    position: absolute;
+    bottom: 398px;
+    right: 740px;
+    
+  }
+  .usertextError , .passtextError{
+    
+    border: 1px solid red;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 11px 24px 13px 16px;
+    color: rgba(255, 255, 255, 1);
+    width: 471px;
+    height: 45px;
+    background: #2b2b3f;
+    border-radius: 8px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}

@@ -1,0 +1,217 @@
+.sidebar-wrapper {
+    position: relative;
+}
+.menubar {
+   
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width: 170px;
+    height: 1080px;
+    padding: 20px;
+    background: rgba(2, 2, 32, 1);
+
+    border-radius: 0px 24px 24px 0px;
+
+  
+}
+.logomain {
+    position: absolute;
+    width: 96px;
+    height: 96px;
+    left: 37px;
+    top: 39px;
+    background: #ffffff;
+    border-radius: 70px;
+}
+
+
+
+
+.menubar_close {
+    display: flex;
+    width: 40px;
+    height: 1080px;
+    padding: 0px 4px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 0px 24px 24px 0px;
+    background: var(--background-bg-dark, #020220);
+}
+
+.nav {
+    position: absolute;
+    height: 48px;
+    left: 0px;
+    top: 200px;
+    border-radius: 8px;
+    background: rgba(2, 2, 32, 1);
+}
+li {
+    display: flex;
+}
+
+.nav li {
+    background: rgba(2, 2, 32, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.nav-link {
+    background: rgba(2, 2, 32, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+}
+.item_drop {
+    background: rgba(2, 2, 32, 1);
+    display: flex;
+    align-items: center;
+}
+.img_drop {
+    background: rgba(2, 2, 32, 1);
+    position: absolute;
+    left: 70px;
+}
+.img_dropDT {
+    background: rgba(2, 2, 32, 1);
+    position: absolute;
+    left: 80px;
+}
+.nav-link img {
+    background: rgba(2, 2, 32, 1);
+}
+.nav-link p {
+    background: rgba(2, 2, 32, 1);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 0px;
+    color: rgba(200, 200, 219, 1);
+}
+
+/* .nav-link:hover {
+    background-color: var(--colormain);
+    color: white;
+} */
+.nav a.active {
+    border-left-color: #ff7506;
+}
+.nav .ui.active {
+    margin-top: -15px;
+    position: absolute;
+    left: 1px;
+    background: #ff7506;
+    width: 10px;
+    height: 60px;
+    border-radius: 10px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-menu,
+.dropdown-menuR,
+.dropdown-menuS,
+.dropdown-menuSp {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    z-index: 1;
+}
+
+.dropdown-menu.show {
+    display: block;
+    left: 113px;
+    top: 11px;
+    height: 128px;
+    width: 216px;
+    border-radius: 0px 12px 12px 0px;
+}
+.dropdown-menuR.show {
+    display: block;
+    left: 124px;
+    top: 11px;
+    height: 128px;
+    width: 216px;
+    border-radius: 0px 12px 12px 0px;
+}
+.dropdown-menuS.show {
+    display: block;
+    left: 110px;
+    top: 11px;
+    height: 128px;
+    width: 216px;
+    border-radius: 0px 12px 12px 0px;
+}
+.dropdown-menuSp.show {
+    display: block;
+    left: 107px;
+    top: 11px;
+    height: 128px;
+    width: 216px;
+    border-radius: 0px 12px 12px 0px;
+}
+.dropdown-menu ul,
+.dropdown-menuR ul,
+.dropdown-menuS ul,
+.dropdown-menuSp ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.dropdown-menu li,
+.dropdown-menuR li,
+.dropdown-menuS li,
+.dropdown-menuSp li {
+    background-color: rgba(48, 48, 63, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: -8px;
+    padding: 7px 16px;
+    cursor: pointer;
+}
+.dropdown-menu p,
+.dropdown-menuR p,
+.dropdown-menuS p,
+.dropdown-menuSp p {
+    background: rgba(48, 48, 63, 1);
+}
+.dropdown-menu li:hover,
+.dropdown-menuR li:hover,
+.dropdown-menuS li:hover,
+.dropdown-menuSp li:hover {
+    background-color: rgba(62, 62, 91, 1);
+}
+.dropdown-item {
+    padding-top: 5px;
+    height: 11px;
+    padding-left: 10px;
+}
+.dropdown-menu p:hover,
+.dropdown-menuR p:hover,
+.dropdown-menuS p:hover,
+.dropdown-menuSp p:hover {
+    background-color: rgba(62, 62, 91, 1);
+}
+/* .link_name li:nth-child(1){
+    border-top-right-radius:20px ;
+}  */
+.link_nav:hover {
+    text-decoration: none;
+}

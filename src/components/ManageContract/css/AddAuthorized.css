@@ -1,0 +1,154 @@
+.Add_AC_head {
+    position: absolute;
+    top: 50px;
+    left: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.Page_Name {
+    color: var(--colorFont);
+
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.072px;
+}
+.List_Page {
+    font-weight: 700;
+    font-size: 20px;
+}
+.Topbar_Name {
+    gap: 5px;
+    display: flex;
+
+    align-items: center;
+
+    width: 550px;
+    line-height: 30px;
+    color: #7e7d88;
+    font-weight: 600;
+    font-size: 16px;
+}
+.Topbar_Name span,
+h1 {
+    font-size: 16px;
+    color: #7e7d88;
+}
+.List_Add_AC {
+    margin-top: 50px;
+    color: var(--colorFont);
+    font-weight: 700;
+    line-height: 24px;
+    width: 1500px;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+.Label_Add_AC {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Label_Add_AC input {
+    display: flex;
+    width: 325px;
+    height: 40px;
+    color: var(--colorFont);
+    font-size: 16px;
+    padding: 11px 24px 13px 16px;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 1px solid var(--text-stroke-text-and-stroke-2, #727288);
+    background: var(--background-bg-lighter, #2b2b3f);
+}
+.Text_Add_Ac {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+.Text_Add_Ac p::after {
+    content: "*";
+    margin-left: 5px;
+    color: red;
+}
+.Attach_Add_AC {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.Attach_Add_AC input[type="file"] {
+    display: flex;
+    padding: 8px 16px;
+    align-items: center;
+    width: 90px;
+    height: 40px;
+    color: #ffac69;
+    gap: 4px;
+    border-radius: 6px;
+    border: 1px solid var(--orange-3, #ffac69);
+}
+.Attach_Add_AC input::-webkit-file-upload-button {
+    visibility: hidden;
+  }
+  .Attach_Add_AC input::before{
+    content: 'Tải lên';
+    display: inline-block;
+  padding: 13px 30px;
+  outline: none;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  cursor: pointer;
+
+  font-weight: 700;
+  font-size: 14px;
+  }
+  .Attach_Add_AC input:active::before {
+    background: -webkit-linear-gradient();
+  }
+  .Attach_Add_AC img{
+    position: absolute;
+    top:200px;
+    left: 890px;
+  }
+  .Upload_Add_AC{
+    display: flex;
+    gap: 10px;
+  }
+  .List_Up{
+    margin-left: -40px;
+  }
+.Benefit_Add_Ac h1 {
+    color: var(--orange-3, #ffac69);
+    display: flex;
+    gap:5px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.032px;
+}
+.Benefit_Add_Ac h2{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.032px;
+    margin-top: 30px;
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+}
+.Benefit_Add_Ac p , span{
+    color: rgba(255, 255, 255, 1);
+    line-height: 24px;
+letter-spacing: -0.032px;
+font-weight: 400;
+word-wrap: 'break-word';
+}
+.Benefit_Add_Ac p{
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+}

@@ -1,0 +1,354 @@
+.Name_Page {
+    position: absolute;
+    top: 100px;
+    color: var(--colorFont);
+    left: 250px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.072px;
+}
+.profile-form {
+    position: absolute;
+    /* width: 1140px;
+    height: 397px; */
+    left: 224px;
+    top: 168px;
+
+    /* White */
+
+    display: flex;
+}
+.img {
+    position: absolute;
+    width: 248px;
+    height: 248px;
+    left: 24px;
+    top: 40px;
+}
+.avata-Profile {
+    position: absolute;
+    width: 273px;
+    height: 280px;
+    left: 24px;
+
+    border-radius: 318px;
+}
+.name_Profile {
+    position: absolute;
+    width: 186px;
+    height: 36px;
+    left: 100px;
+    top: 300px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.04px;
+    display: flex;
+    align-items: center;
+    color: rgba(245, 245, 255, 1);
+}
+.camera_Profile {
+    position: absolute;
+    display: flex;
+    width: 48px;
+    padding: 14.131px 16.848px 19.717px 17px;
+    justify-content: center;
+    align-items: center;
+    left: 210px;
+    top: 210px;
+    border-radius: 45px;
+}
+.camera_Profile:hover {
+    cursor: pointer;
+}
+.profile_group {
+    font-size: 16px;
+    position: absolute;
+    width: 792px;
+    height: 276px;
+    left: 500px;
+    top: 150px;
+    display: flex;
+    align-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.textProfile {
+    color: var(--colorFont);
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 16px;
+    width: 290px;
+    height: 36px;
+    padding: 11px 24px 13px 16px;
+    align-self: stretch;
+    border-radius: 8px;
+    background: var(--background-bg-lighter, #2b2b3f);
+}
+.textProfileLog {
+    color: var(--gray-gray, #878890);
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 16px;
+    width: 640px;
+    height: 36px;
+    padding: 11px 24px 13px 16px;
+    align-self: stretch;
+    border-radius: 8px;
+    background: var(--disabled-state, #3e3e50);
+}
+.textProfileAuth {
+    color: var(--gray-gray, #878890);
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 16px;
+    width: 290px;
+    height: 36px;
+    padding: 11px 24px 13px 16px;
+    align-self: stretch;
+    border-radius: 8px;
+    background: var(--disabled-state, #3e3e50);
+}
+.btn_Profile {
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    position: absolute;
+    right: 1px;
+    top: 150px;
+    display: flex;
+    width: 110px;
+    height: 440px;
+    gap: 40px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgba(47, 47, 65, 1);
+    background-color: rgba(114, 114, 136, 0.5);
+}
+.btn_Profile span {
+    background-color: transparent;
+    color: var(--colorFont);
+    display: flex;
+    width: 85px;
+    height: 30px;
+}
+.btn_IconPr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 62px;
+    height: 62px;
+    border-radius: 67px;
+    background: rgba(114, 114, 136, 0.5);
+}
+.btn_IconPr:hover {
+    cursor: pointer;
+}
+.btn_Profile img {
+    width: 32px;
+    height: 32px;
+    background: transparent;
+}
+.btn_Pr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: transparent;
+}
+.btn_XN {
+    display: flex;
+    position: absolute;
+    bottom: 120px;
+    left: 890px;
+    gap: 32px;
+}
+.btn_Cancel {
+    display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    color: #ff7506;
+    width: 184px;
+    height: 36px;
+    border-radius: 8px;
+    border: 1px solid var(--orange-4-default, #ff7506);
+}
+.btn_Cancel:hover {
+    cursor: pointer;
+}
+.btn_EditXN {
+    display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    color: var(--colorFont);
+    width: 184px;
+    height: 36px;
+    border-radius: 8px;
+    background-color: #ff7506;
+    border: 1px solid var(--orange-4-default, #ff7506);
+}
+.btn_EditXN:hover {
+    cursor: pointer;
+}
+.Link_Code {
+    background-color: transparent;
+}
+.Content_XN {
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    background: var(--text-stroke-text-and-stroke-2, #727288);
+    display: flex;
+    position: absolute;
+    bottom: 120px;
+    left: 890px;
+    color: var(--colorFont);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.09px;
+    width: 351px;
+    height: 76px;
+    gap: 20px;
+}
+.Img_Checkon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 43px;
+    width: 43px;
+    background-color: rgba(24, 227, 6, 1);
+    border-radius: 50%;
+}
+.Img_Checkon img {
+    background: var(--text-stroke-text-and-stroke-2, #727288);
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+}
+.Content_XN p {
+    background-color: transparent;
+}
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.popup-content {
+    background-color: rgba(62, 62, 91, 1);
+    padding: 20px;
+    width: 552px;
+    height: 500px;
+    border-radius: 16px;
+}
+.popup-content h3 {
+    color: var(--text-stroke-text-and-stroke, #f5f5ff);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.048px;
+    background-color: transparent;
+}
+.no-scroll {
+    overflow: hidden;
+}
+.new_PassFr {
+    background-color: rgba(62, 62, 91, 1);
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    align-items: center;
+}
+.new_PassFr label {
+    background-color: transparent;
+}
+.new_PassFr p {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.032px;
+    background-color: transparent;
+}
+.eyesNow {
+    color: #ff7506;
+    background: transparent;
+    position: absolute;
+    bottom: 610px;
+    right: 750px;
+}
+.eyesPassPr {
+    color: #ff7506;
+    background: transparent;
+    position: absolute;
+    bottom: 507px;
+    right: 750px;
+}
+.eyesPassNewPr {
+    color: #ff7506;
+    background: transparent;
+    position: absolute;
+    bottom: 401px;
+    right: 750px;
+}
+.Btn_NewPassPr{
+    display: flex;
+    background: transparent;
+    justify-content: center;
+    gap:50px;
+}
+.btn_NewCancel {
+    background-color: transparent;
+    display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    color: #ff7506;
+    width: 144px;
+    height: 36px;
+    border-radius: 8px;
+    border: 1px solid var(--orange-4-default, #ff7506);
+}
+.btn_NewCancel:hover {
+    cursor: pointer;
+}
+.btn_NewEditXN {
+    display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    color: var(--colorFont);
+    width: 144px;
+    height: 36px;
+    border-radius: 8px;
+    background-color: #ff7506;
+    border: 1px solid var(--orange-4-default, #ff7506);
+}
+.btn_NewEditXN:hover {
+    cursor: pointer;
+}
+.ErrorPassNowPr{
+    margin-top: -15px;
+    background-color: transparent;
+    color: #FF4747;
+}

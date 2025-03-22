@@ -1,0 +1,32 @@
+.footer_Np {
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.passname {
+    color: var(--white, #fff);
+
+    /* Title Bold 36 */
+    font-size: 36px;
+
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.072px;
+}
+.footer_Np span {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    align-items: center;
+    text-decoration-line: underline;
+    color: #ff7506;
+}
+.label_forget p {
+    text-decoration: none;
+    color: var(--white, #fff);
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.032px;
+}
